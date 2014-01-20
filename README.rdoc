@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+I downloaded Ruby, Gems, and Rails. Then I added a repository to my Github account and initialized.
+From there, I went into Gemfile and modified it for postresql and sqlite3. I ran into trouble with config/routes.rb 
+(below). I then deployed Heroku from git. Lastly, to add my name onto the website, I went into app/view/home and 
+added my name to the bottom of the code.
+
+I ran into trouble with deploying heroku from git. I had typed in 'index#home", which created an error with rake.
+Changing it to 'index#home' fixed it. Additionally, I had trouble installing rails. For some reason when I installed
+rails, it couldn't find rails -v after. It was fixed when I restarted my computer. 
+
+Site: http://salty-dusk-6587.herokuapp.com/
